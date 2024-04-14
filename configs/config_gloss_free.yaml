@@ -1,0 +1,13 @@
+name: GFSLT-VLP-AVRET
+data:
+  train_label_path: ./data/features/csldaily_features.train
+  dev_label_path: ./data/features/csldaily_features.dev
+  test_label_path: ./data/features/csldaily_features.test
+  max_length: 400
+training:
+  wandb: disabled # online or disabled
+  scale_embedding: False
+model:
+  transformer:  ./pretrain_models/csl_mbart_char
+  visual_encoder: ./pretrain_models/csl_mbart_char_my   # mytran
+  sign_proj: True
