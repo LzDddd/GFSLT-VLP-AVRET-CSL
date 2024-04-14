@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ### Preparation
 * The pretrain_models of MBart can download from [here](https://pan.baidu.com/s/1BW_7l8-DMqhgxAYOp_ebDA). The extract code is `6f0a`. It includes csl_mbart_char and csl_mbart_char_my.
 
-* The pretrained features of CSL-Daily can download from [here](https://pan.baidu.com/s/1PnOt_Tt66TdgN4mLsuzLig). The extract code is `jorx`. And then, put it in the `data/features/` folder.
+* The pretrained gloss-free features of CSL-Daily can download from [here](https://pan.baidu.com/s/1PnOt_Tt66TdgN4mLsuzLig). The extract code is `jorx`. And then, put it in the `data/features/` folder.
 
 ### Train
 ```bash
